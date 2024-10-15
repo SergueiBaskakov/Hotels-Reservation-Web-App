@@ -1,0 +1,49 @@
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9f9f9; /* Light grey background */
+    padding: 30px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    max-width: 400px; /* Sets a max width for the form */
+    margin: 50px auto; /* Centers the form */
+  }
+  
+  .login-input {
+    width: 100%; /* Full width of the form */
+    padding: 10px;
+    margin-bottom: 15px; /* Adds space between inputs */
+    border: 1px solid #ddd; /* Subtle border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 1em; /* Increases font size */
+    box-sizing: border-box; /* Ensures padding doesn't affect width */
+  }
+  
+  .login-input:focus {
+    border-color: #a5d6a7; /* Light green border on focus */
+    outline: none; /* Removes default outline */
+  }
+  
+  .login-button {
+    background-color: #4caf50; /* Green background */
+    color: white; /* White text */
+    border: none; /* Removes border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 20px; /* Adds padding for better look */
+    font-size: 1.1em; /* Slightly larger font */
+    cursor: pointer; /* Changes cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for hover */
+  }
+  
+  .login-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 10px;
+  }
+
+  

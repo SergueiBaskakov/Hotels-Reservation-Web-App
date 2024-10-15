@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: reservationservice
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: reservationservice
+  template:
+    metadata:
+      labels:
+        app: reservationservice
+    spec:
+      containers:
+      - name: reservationservice
+        image: rsoi-2022-lab5-authorization-sergueibaskakov-reservationservice:latest
+        imagePullPolicy: Never
+        ports:
+        - containerPort: 8070
+        env:
+        - name: NODE_ENV
+          value: "development"
+        - name: PORT
+          value: "8070"

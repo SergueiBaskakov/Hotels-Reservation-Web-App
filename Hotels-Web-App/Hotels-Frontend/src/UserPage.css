@@ -1,0 +1,169 @@
+.user-container {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9; /* Light grey background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    /*max-width: 800px; /* Sets a max width */
+    margin: 50px auto; /* Centers the container */
+  }
+  
+  .user-title {
+    text-align: center;
+    font-size: 2.5em;
+    color: #333;
+  }
+  
+  .error-message {
+    color: red;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .date-input-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .date-label {
+    font-size: 1.1em;
+    margin-right: 10px;
+  }
+  
+  .date-input {
+    padding: 5px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .section-title {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  .hotel-list, .reservation-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .hotel-item, .reservation-item {
+    display: flex;
+    justify-content: space-between;
+    background-color: #e6f7ff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .reservation-button, .cancel-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cancel-button {
+    background-color: #ff4d4d;
+  }
+  
+  .reservation-button:hover {
+    background-color: #45a049;
+  }
+  
+  .cancel-button:hover {
+    background-color: #ff1a1a;
+  }
+  
+  .loyalty-info {
+    background-color: #fffbe6;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  
+
+  .hotel-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  .hotel-header {
+    display: flex;
+    background-color: #e0e0e0; /* Light gray for the header */
+    font-weight: bold;
+    padding: 10px;
+  }
+  
+  .hotel-item {
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid #ccc; /* Light border for separation */
+  }
+  
+  .hotel-column {
+    flex: 1; /* Equal width for each column */
+    padding: 5px;
+    text-align: center; /* Center align text */
+  }
+  
+  .reservation-button {
+    background-color: #4caf50; /* Green background */
+    color: white; /* White text */
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .reservation-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  .reservation-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  .reservation-header {
+    display: flex;
+    background-color: #e0e0e0; /* Light gray for the header */
+    font-weight: bold;
+    padding: 10px;
+  }
+  
+  .reservation-item {
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid #ccc; /* Light border for separation */
+  }
+  
+  .reservation-column {
+    flex: 1; /* Equal width for each column */
+    padding: 5px;
+    text-align: center; /* Center align text */
+  }
+  
+  .cancel-button {
+    background-color: #f44336; /* Red background */
+    color: white; /* White text */
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cancel-button:hover {
+    background-color: #d32f2f; /* Darker red on hover */
+  }
+  

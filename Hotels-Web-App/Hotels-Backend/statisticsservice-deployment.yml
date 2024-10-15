@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: statisticsservice
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: statisticsservice
+  template:
+    metadata:
+      labels:
+        app: statisticsservice
+    spec:
+      containers:
+      - name: statisticsservice
+        image: rsoi-2022-lab5-authorization-sergueibaskakov-statisticsservice:latest
+        imagePullPolicy: Never
+        ports:
+        - containerPort: 8090
+        env:
+        - name: NODE_ENV
+          value: "development"
+        - name: PORT
+          value: "8090"

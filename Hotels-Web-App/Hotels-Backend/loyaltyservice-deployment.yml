@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: loyaltyservice
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: loyaltyservice
+  template:
+    metadata:
+      labels:
+        app: loyaltyservice
+    spec:
+      containers:
+      - name: loyaltyservice
+        image: rsoi-2022-lab5-authorization-sergueibaskakov-loyaltyservice:latest
+        imagePullPolicy: Never
+        ports:
+        - containerPort: 8050
+        env:
+        - name: NODE_ENV
+          value: "development"
+        - name: PORT
+          value: "8050"

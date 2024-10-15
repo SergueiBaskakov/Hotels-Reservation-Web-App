@@ -1,0 +1,44 @@
+.admin-container {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f0f8ff; /* Light blueish background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  .admin-title {
+    font-size: 2.5em;
+    color: #333; /* Dark grey for better contrast */
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .error-message {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .statistics-list {
+    list-style-type: none; /* Removes default bullet points */
+    padding: 0; /* Removes default padding */
+    margin: 20px 0;
+  }
+  
+  .statistics-item {
+    background-color: #e6f7ff; /* Light blue background for each item */
+    margin-bottom: 10px; /* Adds space between items */
+    padding: 10px;
+    border-radius: 5px; /* Rounded corners for list items */
+    font-size: 1.2em;
+    display: flex; /* Flexbox for better alignment */
+    justify-content: space-between; /* Space between the name and number */
+  }
+  
+  .loading-message {
+    text-align: center;
+    font-style: italic;
+    font-size: 1.2em;
+    color: #888;
+  }
+  
